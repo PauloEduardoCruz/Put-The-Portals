@@ -13,7 +13,15 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
+
+
+<script src="funcoes.js"></script>
+
 <body>
+
+
+
+
 
 
     <div class="grid-container">
@@ -22,36 +30,38 @@
             <div class="grid-personagens">
                 <div class="desc">
                     <h2>Big boss</h2>
-                    <p>PUT THE PORTALS é um jogo da categoria puzzle, onde o jogador controlará o Bibbo, personagem
-                        principal do game que usar seus poderes para resolzer os mais variados desafios e enfrentar uma gama
-                        inimigos. Ele usa seus portais para se locomover e assim conseguir alcaçar seu objetivo, ele também
-                        contará com alguns powerUps para rezolver as fases mais complexas.</p>
-                </div>
+                    <p>PUT THE PORTALS é um jogo indie, desenvolvido no Brasil por 
+                        Lucas Siqueira e participação de
+                        Paulo Cruz. Esse
+                        projeto foi financiado por uma iniciativa da Apple para fomentar o cenário de desenvolvimento de
+                        jogos e apps no
+                        Brasil, chamada Apple academy.</p>
+                    </div>
 
                 <div class="personagem">
                     <div class="bichos-grid">
-                        <div class="p1 quadrado">
-                            <img src="/img/Chefão.png" class="img-fluid img2" alt="Responsive image">
+                        <div class="p1 quadrado" onclick="mudaFoto('/img/per/Personagem.png')" >
+                            <img src="/img/per/Personagem.png"  class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p2 quadrado">
+                        <div class="p2 quadrado"  onclick="mudaFoto('/img/per/Inimigo2.png')">
                             <img src="/img/per/Inimigo2.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p3 quadrado">
+                        <div class="p3 quadrado" onclick="mudaFoto('/img/per/Inimigo.png')">
                             <img src="/img/per/Inimigo.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p4 quadrado">
-                            <img src="/img/per/Personagem.png" class="img-fluid img2" alt="Responsive image">
+                        <div class="p4 quadrado" onclick="mudaFoto('/img/per/chfFinal.gif')">
+                            <img src="/img/per/Chefão.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p5 quadrado">
+                        <div class="p5 quadrado" onclick="mudaFoto('/img/per/poção.png')">
                             <img src="/img/per/poção.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p6 quadrado">
+                        <div class="p6 quadrado" onclick="mudaFoto('/img/per/óculos.png')">
                             <img src="/img/per/óculos.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p7 quadrado">
+                        <div class="p7 quadrado" onclick="mudaFoto('/img/per/relógio.png')">
                             <img src="/img/per/relógio.png" class="img-fluid img2" alt="Responsive image">
                         </div>
-                        <div class="p8 quadrado">
+                        <div class="p8 quadrado" onclick="mudaFoto('/img/per/chapéu.png')">
                             <img src="/img/per/chapéu.png" class="img-fluid img2" alt="Responsive image">
                         </div>
                       </div>
@@ -61,10 +71,11 @@
         </div>
     
         <div class="a2">
-            <img src="/img/blob (1).svg" class="img-fluid svg1" alt="Responsive image">
-            <img src="/img/blob2.svg" class="img-fluid svg1" alt="Responsive image">
+            <img src="/img/blob (1).svg" class=" svg1" alt="Responsive image">
+            <img src="/img/blob2.svg" class=" svg1" alt="Responsive image">
     
-            <img src="/img/Chefão.png" class="img-fluid img1" alt="Responsive image">
+            <img src="/img/per/chfFinal.gif" id="icone" class="img1" alt="Responsive image">
+
         </div>
 
         <div class="sobre-flutuante">
@@ -74,54 +85,7 @@
     
     
 
-    
-    <div class="main">
-        <div class="principal ">
-    
-            <div class="grid-sobre">
-                <div class="grid-teste">
-                    <div class="b1 tx">
-                        <h2>Desenvolvimento</h2>
-                        <p>PUT THE PORTALS é um jogo indie, desenvolvido no Brasil por Lucas Siqueira e participação de
-                            Paulo Cruz. Esse
-                            projeto foi financiado por uma iniciativa da Apple para fomentar o cenário de desenvolvimento de
-                            jogos e apps no
-                            Brasil, chamada Apple academy.</p>
-                    </div>
-    
-                    <div class="b2">
-                        <img src="/img/cubo-de-rubik.svg" class="img-fluid img" alt="...">
-                    </div>
-                </div>
-                <div class="grid-teste">
-                    <div class="b3 tx">
-                        <h2>O Game</h2>
-                        <p class="text-justify">PUT THE PORTALS é um jogo da categoria puzzle, onde o jogador controlará o Bibbo, personagem
-                            principal do game que usar seus poderes para resolzer os mais variados desafios e enfrentar uma
-                            gama
-                            inimigos. Ele usa seus portais para se locomover.</p>
-                    </div>
-                    <div class="b4">
-                        <img src="/img/controle-de-video-game.svg" class="img-fluid img" alt="...">
-                    </div>
-                </div>
-
-                <h2 class="teaser">Teaser</h2>
-                <iframe max-width="560" height="315" src="https://www.youtube.com/embed/u84hRUQlaio?controls=0" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-    
-        </div>
-    </div>
-
-
-
-    <footer>
-        <div class="info">
-            
-        </div>
-    </footer>
-
+   
 
 </body>
 </html>
