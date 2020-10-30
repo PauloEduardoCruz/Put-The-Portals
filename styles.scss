@@ -199,6 +199,8 @@
 
 /*Movel*/
 
+
+
 @media only screen and (max-width: 480px){
     .grid-container {
         height: 100vh;
@@ -298,7 +300,13 @@
 }
 
 
-
+@media only screen and (max-height: 800px){
+    .grid-container {
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
