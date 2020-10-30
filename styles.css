@@ -10,15 +10,8 @@
 
 
 
-.grid-container h1 {
 
 
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Bangers', cursive;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 10px 1px rgb(0, 0, 0);
-}
 .sobre-flutuante{
 
     position: absolute;
@@ -62,27 +55,18 @@
 
 .grid-container {
     position: relative;
-    border-bottom: 10px solid #fff;
-    width: 100%;
+
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 0px 1px;
     grid-template-areas:
       "a1 a2";
-  }
-
-
-
+}
 
 .a1 { 
-    width: 100%;
-    height: 100%;
-
     grid-area: a1;
-    background-image: radial-gradient(farthest-corner at 100px 40px , #f7d78c 0%, #8a704b 100%);
-
     background-image: url(/img/fundo.png);
 
     background-repeat: no-repeat;
@@ -91,6 +75,105 @@
 
     border-right: 10px solid #ffcf47;
 }
+.a1 h1 {
+    letter-spacing: 5px;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+}
+.grid-a1 {
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0% 10%;
+}
+.desc { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.desc h2 {
+    font-family: 'Baloo 2', cursive;
+    color: rgb(255, 255, 255);
+    border-left: 10px solid#ffcf47;
+    padding-left: 15px;
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
+}
+.desc p {
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0rem;
+    font-size: 1.5vmax;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+}
+.personagem { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .bichos-grid{
+     align-items: center;
+     justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 30px;
+    grid-template-areas:
+      "p1 p2 p3 p4"
+      "p5 p6 p7 p8";
+
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+}
+.quadrado{
+
+    padding: 0px;
+    margin: 0px;
+
+    width: 100%;
+    height: 7vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: #9a7f54;
+
+    border: 3px solid #b49463;
+
+    border-left: 10px solid #5f4b30;
+    border-left: 5px solid #ffcf47;
+
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    transition: .1s;
+}
+.quadrado:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    background: #ffcf47;
+}
+.img2{
+    width: 60%;
+}
+
+
+
+
+
+
+
 .a2 { 
     overflow: hidden;
 
@@ -102,12 +185,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+.nome-personagem{
+    z-index: 3;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(255, 255, 255);
+    border: 5px solid#ffffff;
+    padding-left: 15px;
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 25px;
+    text-transform: uppercase;
+}
 .svg1{
     position: absolute;
-    top: 0px; 
-    left: 0%;
+    top: 30px;
+
 }
 
 .img1{
@@ -120,88 +217,31 @@
     z-index: 2;
 }
 
+.slide-top{animation:slide-top 2s linear infinite alternate-reverse}
 
-
-
-
-
-
-.grid-personagens {
-    min-height: 70%;
-
+@keyframes slide-top{
+    0%{
+        transform:translateX(0)
+    }
+    100%{transform:translateX(-30px)}
 }
 
-.desc { 
-    border-bottom: 0px solid rgb(255, 255, 255);
-    background-color: rgba(255, 0, 0, 0);
-}
-.personagem { 
+.slide-top2{animation:slide-top 4s linear infinite alternate-reverse}
 
-    border: 5px solid #664e2c00;
-    background-color: #dec17900;
-    border-radius: 50px 0px 50px 0px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
-
- }
-
-
-.desc h2 {
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    border-left: 10px solid#ffcf47;
-    padding-left: 15px;
-}
-.desc p {
-    padding: 15px;
-    text-align: justify;
-    color: rgb(255, 255, 255);
-
+@keyframes slide-top{
+    0%{transform:translateX(-30px)}
+    100%{transform:translateX(0)}
 }
 
 
 
- .img2{
-    height: 50px;
-    width: 50px;
-}
-
-.bichos-grid{
-
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "p1 p2 p3 p4"
-      "p5 p6 p7 p8";
-
-    background-color: rgba(255, 255, 255, 0);
 
 
-    height: 50%;
 
-}
 
-.quadrado:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    background: #ffcf47;
-}
 
-.quadrado{
-    background-image: radial-gradient(farthest-corner at 2000px 450px , #2535c0 0%, #333 100%);
 
-    background: #9a7f54;
-    margin: 10px;
-    border: 3px solid #b49463;
 
-    border-left: 5px solid #5f4b30;
-
-    border-radius: 50px 0px 50px 0px;
-
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    transition: .1s;
-}
 
 .p1 { grid-area: p1; }
 .p2 { grid-area: p2; }
