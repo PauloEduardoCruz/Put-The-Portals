@@ -27,13 +27,13 @@
 
 .a1 { 
     grid-area: a1;
-    background-image: url(/img/fundo.png);
+    background-image: url(./img/fundo.png);
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-    border-right: 10px solid #ffcf47;
+    border-right: 5px solid #ffcf47;
 }
 .a1 h1 {
     letter-spacing: 5px;
@@ -59,9 +59,9 @@
 }
 .desc h2 {
     color: rgb(255, 255, 255);
-    border-left: 10px solid#ffcf47;
+    border-left: 5px solid#ffcf47;
     padding-left: 15px;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
 }
 .desc p {
@@ -109,12 +109,11 @@
 
     background: #9a7f54;
 
-    border: 3px solid #b49463;
-
+    border: 2px solid #b49463;
     border-left: 10px solid #5f4b30;
-    border-left: 5px solid #ffcf47;
+    border-left: 3px solid #ffcf47;
+    border-radius: 30px;
 
-    border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     transition: .1s;
 }
@@ -137,7 +136,7 @@
 
     grid-area: a2;
     background-color: #ffcf47;
-    border-left: 10px solid #8a704b;
+    border-left: 5px solid #8a704b;
     position: relative;
 
     display: flex;
@@ -151,7 +150,7 @@
     color: rgb(255, 255, 255);
     border: 5px solid#ffffff;
     padding-left: 15px;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 50px;
@@ -165,9 +164,9 @@
 }
 
 .img1{
-    padding-top: 100px;
+    padding-top: 50px;
     overflow: hidden;
-    width: 380px;
+    width: 300px;
 
     max-width: 100%;
     height: auto;
@@ -204,6 +203,7 @@
 
 
 /*Movel*/
+
 @media only screen and (max-width: 480px){
     .grid-container {
         height: 100vh;
@@ -211,9 +211,13 @@
         flex-direction: column;
     }
 
+    .img2{
+        width: 70%;
+    }
+
     .a1 {
         height: 100%;
-        background-image: url(/img/fundo.png);
+        background-image: url(./img/fundo.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -247,7 +251,7 @@
 
     .bichos-grid {
         align-items: end;
-        gap: 0px 15px;
+        gap: 0px 5px;
 
     }
 
@@ -258,7 +262,7 @@
 
 
     .a2 {
-        height: 80%;
+        height: 70%;
         overflow: hidden;
 
         background-color: #ffcf47;
@@ -268,8 +272,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
+
 
     .nome-personagem {
         border: 2.5px solid#ffffff;
@@ -282,17 +287,18 @@
     }
 
     .img1 {
+        padding-bottom: 10px;
         padding-top: 0px;
         overflow: hidden;
-        width: 200px;
-        max-width: 50%;
+        width: 225px;
+        max-width: 55vw;
         height: auto;
         z-index: 2;
     }
 
     .svg1 {
         position: absolute;
-        top: -100px;
+        top: -50px;
     }
 }
 
