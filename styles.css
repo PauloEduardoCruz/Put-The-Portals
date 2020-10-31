@@ -387,6 +387,7 @@
     max-width: 55vw;
     height: auto;
     z-index: 2;
+    display: none;
   }
   .svg1 {
     position: absolute;
@@ -408,6 +409,16 @@
 }
 
 /*          SOBRE */
+video {
+  max-width: 70%;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 1px 1px 10px #333;
+          box-shadow: 1px 1px 10px #333;
+}
+
 .main {
   margin-top: 1px;
   background-color: #ffcf47;
