@@ -23,11 +23,12 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: a1;
-  background-image: url(./img/fundo.png);
+  background-image: url(./img/fundoC.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-right: 5px solid #ffcf47;
+  border-bottom: 5px solid #ffcf47;
 }
 
 .a1 h1 {
@@ -156,6 +157,7 @@
   grid-area: a2;
   background-color: #ffcf47;
   border-left: 5px solid #8a704b;
+  border-bottom: 5px solid #ffcf47;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,7 +307,7 @@
   }
   .a1 {
     height: 100%;
-    background-image: url(./img/fundo.png);
+    background-image: url(./img/fundoC.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -392,7 +394,7 @@
   }
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-width: 480px) and (max-height: 800px) {
   .grid-container {
     height: 110vh;
     display: -webkit-box;
@@ -407,24 +409,22 @@
 
 /*          SOBRE */
 .main {
-  margin-top: 80px;
-  margin-bottom: 50px;
-  background-color: white;
+  margin-top: 1px;
+  background-color: #ffcf47;
   padding-top: 10px;
 }
 
 .principal {
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50px 50px 50px 50px;
-  border: 10px solid #FFF;
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  background-image: radial-gradient(farthest-corner at 2000px 450px, #2535c0 0%, #333 100%);
-  top: 0%;
-  left: 0%;
-  right: 0%;
+  border-radius: 25px;
+  border: 5px solid #b49463;
+  -webkit-box-shadow: 0px 0px 10px #333;
+          box-shadow: 0px 0px 10px #333;
+  background-image: url(./img/fundoC.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .principal h1 {
@@ -457,7 +457,7 @@
 }
 
 .b1 {
-  padding-left: 50px;
+  padding-left: 0px;
   width: 50%;
   border-bottom: 1px solid white;
 }
@@ -477,7 +477,7 @@
 }
 
 .b3 {
-  padding-left: 50px;
+  padding-left: 0px;
   width: 50%;
   border-bottom: 1px solid white;
 }
@@ -509,15 +509,15 @@
   margin-top: 20px !important;
   margin-bottom: 35px !important;
   color: white;
-  border-left: 5px solid #2bff00;
-  border-right: 5px solid #2bff00;
+  border-left: 5px solid #ffcf47;
+  border-right: 5px solid #ffcf47;
 }
 
 /*P E H2 do sobre*/
 .tx h2 {
   margin-top: 20px;
   color: white;
-  border-left: 5px solid #2bff00;
+  border-left: 5px solid #ffcf47;
   padding-left: 15px;
 }
 
