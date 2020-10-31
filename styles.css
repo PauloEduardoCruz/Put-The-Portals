@@ -306,7 +306,7 @@
     width: 70%;
   }
   .a1 {
-    height: 100%;
+    height: auto;
     background-image: url(./img/fundoC.png);
     background-repeat: no-repeat;
     background-position: center;
