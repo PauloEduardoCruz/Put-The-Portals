@@ -50,7 +50,11 @@
 
 
 
-
+            <object data="./img/blob (1).svg" class="slide-top svg1" type="image/svg+xml"></object>
+            <object data="./img/blob2.svg" class="slide-top2 svg1" type="image/svg+xml"></object>
+            
+    
+            <h2 class="nome-personagem" id="name">BIG CHEFE</h2>
 
 
             <img src="./img/gifs/chefaoG.gif" id="icone" class="img1" alt="Responsive image">
