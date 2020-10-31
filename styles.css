@@ -306,7 +306,7 @@
     width: 70%;
   }
   .a1 {
-    height: 50%;
+    height: 60%;
     background-image: url(./img/fundoC.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -350,7 +350,7 @@
     height: auto;
   }
   .a2 {
-    height: 50%;
+    height: 40%;
     overflow: hidden;
     background-color: #ffcf47;
     border-left: 0px solid #8a704b;
@@ -395,8 +395,8 @@
   }
   .i-grid {
     width: 100%;
-    height: 50vh;
-    background-color: #0c0fcf;
+    height: 100%;
+    background-color: #bf0ccf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
