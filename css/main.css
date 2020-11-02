@@ -38,13 +38,13 @@
     border-left: 5px solid #ffcf47;
     padding-left: 15px;
     font-size: 2rem;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0) ;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
 }
 .tx p {
     text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 1.5vmax;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
 }
 
 .b2 {     

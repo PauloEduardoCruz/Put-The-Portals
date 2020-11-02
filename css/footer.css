@@ -9,7 +9,6 @@ footer{
 .info {
     display: flex;
     justify-content: space-around;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -31,19 +30,19 @@ footer{
 .footer-h2{
     color: white;
     padding-top: 10px;
-    font-size: 1.8rem;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0) !important;
+    font-size: 2vw;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507) !important;
 }
 .footer-nomes{
     color: rgb(255, 255, 255);
     padding-left: 10px;
-    font-size: 1rem;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0) !important;
+    font-size: 1.3vw;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507) !important;
 }
 .icons {
     color: rgb(255, 255, 255) !important;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0) !important;
-    font-size: 1.5rem !important;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507) !important;
+    font-size: 1.5vw !important;
     padding-bottom: 5px;
 }
 
@@ -71,5 +70,13 @@ footer{
 
     .grid-web {
         border-right: 0px solid #ffcf47;
+    }
+
+    .footer-h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer-nomes{
+        font-size: 1rem;
     }
 }

@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: 'Baloo 2', cursive;
 }
-
 p{
     margin-bottom: 0 !important;
 }
-
 a {
     display: flex;
     align-items: center;
@@ -18,9 +16,20 @@ a {
 }
 
 
-.grid-container {
-    position: relative;
 
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
@@ -29,11 +38,9 @@ a {
     grid-template-areas:
       "a1 a2";
 }
-
 .a1 { 
     grid-area: a1;
     background-image: url(../img/fundoC.png);
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -48,6 +55,7 @@ a {
     font-family: 'Bangers', cursive;
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px 1px rgb(0, 0, 0);
+    margin-top: 10px;
 }
 .grid-a1 {
     height: 70%;
@@ -82,29 +90,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
  }
-
  .bichos-grid{
-     align-items: center;
-     justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 30px;
-    grid-template-areas:
-      "p1 p2 p3 p4"
-      "p5 p6 p7 p8";
+    align-items: center;
+    justify-items: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 0px 30px;
+   grid-template-areas:
+     "p1 p2 p3 p4"
+     "p5 p6 p7 p8";
 
-    background-color: rgba(255, 255, 255, 0);
-    width: 100%;
-    height: 100%;
+   background-color: rgba(255, 255, 255, 0);
+   width: 100%;
+   height: 100%;
 }
 .quadrado{
-
-    padding: 0px;
-    margin: 0px;
-
     width: 100%;
     height: 7vw;
 
@@ -112,11 +114,9 @@ a {
     justify-content: center;
     align-items: center;
 
-
     background: #9a7f54;
 
     border: 2px solid #b49463;
-    border-left: 10px solid #5f4b30;
     border-left: 3px solid #ffcf47;
     border-radius: 30px;
 
@@ -131,15 +131,8 @@ a {
     width: 60%;
 }
 
-
-
-
-
-
-
 .a2 { 
     overflow: hidden;
-
     grid-area: a2;
     background-color: #ffcf47;
     border-left: 5px solid #8a704b;
@@ -151,50 +144,55 @@ a {
     align-items: center;
     flex-direction: column;
 }
-
 .i-grid {
     width: 100%;
     height: 100%;
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column-reverse;
     align-items: center;
     z-index: 3;
 }
-
-.nome-personagem{
-    z-index: 3;
-    color: rgb(255, 255, 255);
-    border: 5px solid#ffffff;
-    padding-left: 15px;
-    font-size: 2rem;
-    text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
-    padding: 25px;
-    text-transform: uppercase;
-}
 .svg1{
     position: absolute;
     top: 30px;
-
 }
-
 .img1{
     padding-top: 50px;
     overflow: hidden;
     width: 300px;
-
     max-width: 100%;
     height: auto;
     z-index: 2;
 }
+.nome-personagem{
+    color: rgb(255, 255, 255);
+    border: 2.5px solid#ffffff;
+    font-size: 2vw;
+    text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////ANIMATIONS*/
 .slide-top{animation:slide-top 2s linear infinite alternate-reverse}
-
 @keyframes slide-top{
     0%{
         transform:translateX(0)
@@ -203,13 +201,10 @@ a {
 }
 
 .slide-top2{animation:slide-top 4s linear infinite alternate-reverse}
-
 @keyframes slide-top{
     0%{transform:translateX(-30px)}
     100%{transform:translateX(0)}
 }
-
-
 
 .p1 { grid-area: p1; }
 .p2 { grid-area: p2; }
@@ -234,53 +229,10 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Não consegui colocar isso dentro de info, tava bugando*/
 .info {
     background-image: url(../img/fundoC.png);
 }
-
-
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////    MOVEL*/
 
@@ -290,105 +242,58 @@ a {
         display: flex;
         flex-direction: column;
     }
-
-    .img2{
-        width: 70%;
-    }
-
     .a1 {
         height: 60%;
-        background-image: url(../img/fundoC.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         border-right: 0px solid #ffcf47;
-        border-bottom: 5px solid #ffcf47;
     }
     .a1 h1 {
-        letter-spacing: 5px;
         font-size: 2rem;
-
         text-shadow: 3px 3px 0px rgb(51, 51, 51);
         margin-top: 10px;
     }
-
     .grid-a1 {
         height: 80%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
         padding: 0% 5%;
     }
     .desc h2 {
         margin-top: 10px;
         font-size: 1.5rem;
     }
-
     .desc p {
         font-size: 4vw;
     }
-
     .bichos-grid {
         align-items: end;
         gap: 0px 5px;
-
     }
-
     .quadrado {
         height: auto;
     }
-
+    .img2{
+        width: 70%;
+    }
     .a2 {
         height: 40%;
-        overflow: hidden;
-
-        background-color: #ffcf47;
         border-left: 0px solid #8a704b;
         border-top: 5px solid #8a704b;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column-reverse;
     }
-
-    .nome-personagem {
-        border: 2.5px solid#ffffff;
-        font-size: 1.5rem;
-        text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.5);
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        padding: 10px 30px;
-        text-transform: uppercase;
+    .i-grid{
+        flex-direction: column;
     }
-
-    .img1 {
-        padding-bottom: 10px;
-        padding-top: 0px;
-        overflow: hidden;
-        width: 225px;
-        max-width: 55vw;
-        height: auto;
-        z-index: 2;
-    }
-
     .svg1 {
         position: absolute;
         top: -50px;
     }
-
-    .i-grid{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        z-index: 3;
+    .img1 {
+        padding-bottom: 10px;
+        padding-top: 0px;
+        width: 225px;
+        max-width: 55vw;
     }
-
-
-
+    .nome-personagem {
+        font-size: 1.5rem;
+    }
 
 
 
@@ -402,5 +307,4 @@ a {
             flex-direction: column;
         }
     }
-
 }
