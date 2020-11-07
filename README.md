@@ -1,5 +1,5 @@
 # Put The Portals
  
 
-![Screenshot](23.png)
+![Screenshot](demonstration.png)
 
