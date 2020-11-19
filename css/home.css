@@ -242,7 +242,7 @@ a {
 
 @media only screen and (max-width: 480px){
     .grid-container {
-        height: 100vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
     }
@@ -306,7 +306,7 @@ a {
 
     @media only screen and (max-height: 800px){
         .grid-container {
-            height: 110vh;
+            height: 130vh;
             display: flex;
             flex-direction: column;
         }
