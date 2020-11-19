@@ -5,6 +5,9 @@
     padding-bottom: 10vh;
     border-top: #8a704b solid 5px;
     border-bottom: #8a704b solid 5px;
+
+    position: relative;
+    overflow: hidden;
 }
 .principal {
     width: 85vw;

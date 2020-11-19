@@ -234,6 +234,10 @@ a {
     background-image: url(../img/fundoC.png);
 }
 
+.menu-flutuante{
+    background-image: url(../img/fundoC.png);
+}
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////    MOVEL*/
 
 @media only screen and (max-width: 480px){
