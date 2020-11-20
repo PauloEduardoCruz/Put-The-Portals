@@ -64,6 +64,10 @@ footer{
         height: 90vh;
     }
 
+    .icons {
+        font-size: 1rem !important;
+    }
+    
     .info{
         flex-direction: column;
     }
