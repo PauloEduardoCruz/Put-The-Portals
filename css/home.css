@@ -296,10 +296,13 @@ a {
         max-width: 55vw;
     }
     .nome-personagem {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 
+    .dNone{
+        display: none;
+    }
 
 
 
