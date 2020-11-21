@@ -12,3 +12,19 @@
 
     <object data="./img/blob (1).svg" class="slide-top svgGiga5 dNone" type="image/svg+xml"></object>
     <object data="./img/blob2.svg" class="slide-top2 svgGiga5 dNone" type="image/svg+xml"></object>
+
+
+    <video playsinline="0" autoplay="autoplay" muted="" loop="1" id="screenshotting-008"
+    src="./videos/screenshotting-008.mp4" style=""></video>
+
+                            <video playsinline="0" autoplay="autoplay" muted="" loop="1" id="screenshotting-008"
+                            src="./videos/screenshotting-008.mp4" style=""></video>
+
+
+                                                    <video class="videp-teaserT" playsinline="0" autoplay="autoplay" muted="" loop="1"
+                            id="screenshotting-008" src="./videos/screenshotting-008.mp4" style=""></video>
+
+Put The Portals é um game indie, que se passa em uma floresta mágica, onde o jogador deverá resolver quebra-cabeças para derrotar seus inimigos. Foi desenvolvido dentro da Apple Academy, uma iniciativa Apple para fomentar o cenário de desenvolvimento de jogos e apps no Brasil, em parceria com a Universidade Católica de  Brasília.
+
+
+O Jogador usará portais para se locomover, com isso terá que atingir todos os inimigos do mapa, para então conseguir sua vitória, ele também contará com uma série de itens especiais que o ajudarão nessa jornada, como o chapéu da sabedoria e o cronometro dourado.
