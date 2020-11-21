@@ -148,8 +148,10 @@
     border-radius: 50%;
     box-shadow: 1px 1px 10px #333;
 
-    max-width: 20%;
+    max-width: 15%;
     height: auto;
+    margin-right: 10px;
+
 }
 
 
@@ -233,13 +235,9 @@
         box-shadow: 1px 1px 10px #333;
     }
     .icone{
+        display: none;
 
 
-    border: 1px solid rgb(255, 207, 71);
-    border-radius: 20%;
-    box-shadow: rgba(51, 51, 51, 0) 1px 1px 10px;
-    max-width: 12%;
-    height: auto;
 
     }
 

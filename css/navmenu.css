@@ -31,9 +31,10 @@
 
 .svgApple{
     overflow: hidden;
-    width: 150px;
+    width: 160px;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
@@ -131,11 +132,14 @@
         z-index: 400;
     }
 
-
-
-    .spinner {
-        display: none;
+    .svgApple {
+        overflow: hidden;
+        width: 185px;
+        max-width: 100%;
+        height: auto;
     }
+
+    
 
     .grid-flutuante {
         display: flex;

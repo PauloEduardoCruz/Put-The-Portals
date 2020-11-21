@@ -28,3 +28,6 @@ Put The Portals é um game indie, que se passa em uma floresta mágica, onde o j
 
 
 O Jogador usará portais para se locomover, com isso terá que atingir todos os inimigos do mapa, para então conseguir sua vitória, ele também contará com uma série de itens especiais que o ajudarão nessa jornada, como o chapéu da sabedoria e o cronometro dourado.
+
+
+                <object data="./img//blk.svg" class="svgApple" type="image/svg+xml"></object>
