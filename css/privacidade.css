@@ -1,0 +1,90 @@
+.privacidade {
+
+    background-color: #ffcf47;
+
+
+
+    min-height: 100vh;
+    overflow: hidden;
+
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.grid-privacidade{
+    width: 85vw;
+    min-height: 90vh;
+    padding: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    border: 5px solid #b49463;
+    box-shadow: 0px 0px 10px #333;
+    background-image: url(/./img/fundoC.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.txt h2 {
+    color: rgb(255, 255, 255);
+    border-left: 5px solid #ffcf47;
+    padding-left: 15px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+
+
+}
+.txt p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vmax;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+
+
+}
+
+
+.grid-dropdown{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.return {
+    color: #ffcf47 !important;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507) !important;
+    font-size: 1.5vw !important;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    .txt p {
+        font-size: 4vw;
+    }
+
+    .desc h2 {
+        font-size: 1.5rem;
+    }
+
+    .return{ 
+        font-size: 4vw !important;
+    }
+}
